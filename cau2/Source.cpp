@@ -1,6 +1,5 @@
-﻿#include <stdio.h>
+#include <stdio.h>
 #include <math.h>
-#include <conio.h>
 
 // Hàm kiểm tra số chính phương
 int isPerfectSquare(double n) {
@@ -22,7 +21,7 @@ int countPerfectSquares(int n) {
 int main() {
 	int n;
 	printf("Nhap so n: ");
-	scanf_s("%d, ", &n);
+	scanf("%d, ", &n);
 
 
 	// Đếm số lượng số chính phương
@@ -38,6 +37,5 @@ int main() {
 
 	printf("\nSo luong so chinh phuong la: %d", count);
 	printf("\nNguyen Nhat Duy");
-	_getch();
 	return 0;
 }
